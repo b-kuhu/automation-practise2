@@ -18,7 +18,12 @@ exports.config = {
     }
   },
   include: {
-    I: './steps_file.js'
+    I: './steps_file.js',
+    homePage:'./pages/home_page_test.js',
+    loginPage:'./pages/login_test.js',
+    registerPage:'./pages/registeration_test.js',
+    shopPage:'./pages/shop_test.js'
+
   },
   name: 'automation-practise'
 }
